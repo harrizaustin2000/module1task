@@ -1,0 +1,54 @@
+1)
+
+Javascript can only be run in the browsers.   |       NodeJS code can be run outside the browser.
+
+
+It is basically used on the client-side.      |       It is basically used on the server-side.
+
+
+It interacts with DOM,Window,Document and other web platform API's | It doesn't interact with those
+
+Runs on any browser engine JS core in safari  |      Nodejs can only run in V8 engine of google chrome.
+
+
+It can be run only in the browser             |    It can be run outside the browser
+
+
+Its a programming language used for scripting |  NodeJS is a Javascript runtime environment 
+
+2)  
+
+
+* Parsing HTML and CSS
+
+* render/ Frame tree combines all styles, applies complexity around matching rules for each element , style resolution which you actually see on screen
+  consists of multiple trees
+* Layout is a recursive process it contains  will batch layouts and immediate layouts
+
+* Paint produces a bitmap from each layer . composites the textures into a final image to render to the screen
+
+
+
+
+3) 
+No need of HTML Head and body tags as the browser renders automatically for the user after  HTML 5 
+
+
+
+4)  
+typeof(1)
+"number"
+typeof(1.1)
+"number"
+typeof(true)
+"boolean"
+typeof(null)
+"object"
+typeof(undefined)
+"undefined"
+typeof([])
+"object"
+typeof({})
+"object"
+typeof(NaN)
+"number"
