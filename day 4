@@ -1,5 +1,108 @@
 1)
 
+//for loop: 
+var obj = [
+{ person: "ram", age: "10", company: "GUVI" },
+{ person: "kumar", age: "20", company: "GUVI geek" },
+{ person: "Radha", age: "30", company: "GUVI geek network" },
+]
+for(let i =0;i<obj.length;i++)
+{
+console.log(obj[i]);
+}
+//for of loop:
+var obj = [
+{ person: "Ram", age: "10", company: "GUVI" },
+{ person: "kumar", age: "20", company: "GUVI geek" },
+{ person: "Radha", age: "30", company: "GUVI geek network" },
+]
+for(let prop of obj)
+{
+console.log(prop);
+}
+//for in loop:
+var obj = [
+{ person: "Ram", age: "10", company: "GUVI" },
+{ person: "kumar", age: "20", company: "GUVI geek" },
+{ person: "Radha", age: "30", company: "GUVI geek network" },
+]
+for(let prop in obj)
+{
+console.log(obj[prop]);
+}
+for each loop:-
+var obj = [
+{ person: "Ram", age: "10", company: "GUVI" },
+{ person: "kumar", age: "20", company: "GUVI geek" },
+{ person: "Radha", age: "30", company: "GUVI geek network" },
+]
+obj.forEach(key => console.log(key));
+
+
+2)
+
+
+// creates xhr as objects & instance of XMLHttpRequest
+var xhr = new XMLHttpRequest();
+// opens connection with GET method & with (URL endpoint)
+xhr.open("GET", "https://restcountries.eu/rest/v2/all")
+    // loads the JSON to us
+xhr.onload = function() {
+    var t = JSON.parse(this.response);
+    fun(t)
+};
+// handles any error
+xhr.onerror = function() {
+    console.log("Error", this.statusText);
+};
+// sends the request
+xhr.send();
+
+function fun(values) {
+    for (i = 0; i < values.length; i++) {
+        console.log(values[i].flag)
+    }
+
+
+
+
+
+}
+
+
+
+
+
+3)
+
+// creates xhr as objects & instance of XMLHttpRequest
+var xhr = new XMLHttpRequest();
+// opens connection with GET method & with (URL endpoint)
+xhr.open("GET", "https://restcountries.eu/rest/v2/all")
+    // loads the JSON to us
+xhr.onload = function() {
+    var t = JSON.parse(this.response);
+    fun(t)
+};
+// handles any error
+xhr.onerror = function() {
+    console.log("Error", this.statusText);
+};
+// sends the request
+xhr.send();
+
+function fun(values) {
+    for (i = 0; i < values.length; i++) {
+        console.log("Name: " + values[i].name)
+        console.log("Region: " + values[i].region)
+        console.log("Subregion: " + values[i].subregion)
+        console.log("Population: " + values[i].population)
+    }
+}
+
+
+4)
+
 
 
 [
@@ -36,10 +139,20 @@
 
 
 
-2)
+5)
 
 let obj1 = { name: "Person 1", age: 5 };
 let obj2 = { age: 5, name: "Person 1" };
 
 console.log(_.isEqual(obj1, obj2))
+
+
+
+
+
+
+
+
+
+
 
