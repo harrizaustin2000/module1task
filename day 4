@@ -1,0 +1,45 @@
+1)
+
+
+
+[
+    "basic info": {
+      "name": "Harriz Prasath M",
+      "label": "Full Stack developer",
+      "picture": "123.jpg",
+      "email": "harrizaustin2000@gmail.com",
+      "phone": "9176094621",
+      "website": "http://harriz.com",
+      
+        "address": "t nagar",
+        "postalCode": "6000099",
+        "city": "chennai",
+        "countryCode": "IND",
+        "region": "TN",
+        "profiles": {
+        "network": "Twitter",
+        "username": "john",
+        "url": "http://twitter.com/john"
+      
+    },
+    "Experience": {
+      "company": "ABCD",
+      "position": "Assistant software architect",
+      "website": "http://ABCD.com",
+      "startDate": "05-05-2015",
+      "endDate": "14-08-2021",
+      "summary": "Made changes in the main functionality  part of the software",
+      
+    }
+
+]
+
+
+
+2)
+
+let obj1 = { name: "Person 1", age: 5 };
+let obj2 = { age: 5, name: "Person 1" };
+
+console.log(_.isEqual(obj1, obj2))
+
