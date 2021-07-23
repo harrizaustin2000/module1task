@@ -1,0 +1,55 @@
+[
+    "dimensions": {
+        "overall_Weight": "3500 mm",
+        "overall_Width": "1600 mm",
+        "overall_Height": "1490 mm",
+        "wheelbase": "2360 mm",
+        "track_Width" : {
+            "front": "1405 mm"
+            "rear": "1400 mm"
+
+        }
+        "minimum_Turning_Radus": "4.5 m"
+        "inimum_Ground_Clearance":"170 mm",
+        "capacities": {
+            "seating_Capacity": "5 persons"
+            "fuel_Tank_Capacity": "35 litres"
+        }
+        "engine":{
+            "type": "KB_series"
+            "number_Of_Cylinders":"3"
+            "number_Of_Valves": "12"
+            "capacity": "998 cc/cm3"
+            "bore_X_Stroke": "73.0 x79.5 mm"
+            "compression_Ratio": "10:1"
+            "maximum_Power": "67/6,200 ps/rpm"
+            "maximum_Torque": "90/3,200 PS/rpm"
+            "fuel_Distribution": "Multipoint injection"
+
+
+        }
+        "transmission":{
+            "type": "5 speed MT"
+
+        }
+        "chassis":{
+            "steering":"rack & pinion,power assisted"
+            "brakes":{
+                "front": "ventilated disk"
+                "back": "drums"
+            }
+            "suspension":{
+                "front": "mac coil and spring"
+                "rear": "isolated trailing link and coil"
+            }
+            "shock absrobers":"gas filled"
+            "tyre": " 155/80R13"
+
+        }
+        "weights":{
+            "kerb weight" : "860 kg"
+            "gross vehicle weight": "1320 kg"
+        }
+
+    }
+]
